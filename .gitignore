@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code project settings
+.vscode/
+.history/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Output simulation data
+data/outputs/
+*.sto
+
+# OpenSim model cache/logs/temp
+*.log
+*.tmp
+*.bak
+opensim.log
+
+# Compiled C++/OpenSim temp
+*.so
+*.dll
+*.dylib
+*.out
+*.exe
+
+# ZIP & archive files
+*.zip
+*.7z
+*.tar.gz
+
+# Environment files
+.env
+.venv/
+*.conda
+*.envrc
+*.env.yaml
+
+# Anaconda environment metadata
+*.egg-info/
+pip-wheel-metadata/
+site-packages/
