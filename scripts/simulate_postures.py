@@ -24,7 +24,7 @@ def set_standing_pose(model, state):
     print("Neutral standing posture set.")
     return state
 
-def run_forward_simulation(model, state, duration=0.05):
+def run_forward_simulation(model, state, duration=1.0):
     model.equilibrateMuscles(state)
     model.realizeVelocity(state)
     state.setTime(0)
